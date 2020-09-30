@@ -1,11 +1,11 @@
 # What is Outreachy?
 
-Outreachy is a three-month paid internship program for people traditionally underrepresented in tech.
+Outreachy is a three-month paid internship program for people traditionally underrepresented in technology
 This repository is for the Django code that comprises the [Outreachy website](https://www.outreachy.org).
 
 # Current state of Outreachy tech
 
-The Outreachy web presence is in a couple of different places:
+The Outreachy web presence is in a couple of different places like:
  * [Outreachy website](https://www.outreachy.org)
  * [GitHub website code repository](https://github.com/outreachy/website/)
  * [GitHub repository for creative works and miscellaneous scripts](https://github.com/outreachy/creative-works-and-scripts/)
@@ -29,11 +29,11 @@ Older/deprecated websites include:
 
 The Outreachy website is built with [Python](https://www.python.org/) and a web framework called [Django](https://www.djangoproject.com/). Additionally, the Outreachy website uses a content management system called [Wagtail](https://wagtail.io/), which builds on top of Django. On the Outreachy webserver, we run [Dokku](http://dokku.viewdocs.io/dokku/), which helps us deploy new code, manage our Let's Encrypt SSL certificates, and backup the Outreachy website database. Only Outreachy organizers have ssh access to push new code to the server.
 
-# Optional helpful background reading
+# Helpful background reading (Optional):
 
 [Django topic guides](https://docs.djangoproject.com/en/1.11/topics/), particularly the [models](https://docs.djangoproject.com/en/1.11/topics/db/models/) guide.
 
-# Setting up your development environment
+# Setting up your development environment:
 
 You can run Django locally to test changes to the code, test creating new pages, test adding new users, etc. The local tests you run will not impact the main Outreachy website, only your local version of the website. You should test changes locally before submitting a pull request.
 
